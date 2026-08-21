@@ -5,7 +5,7 @@ public:
         while(start<=end)
         {
 
-            mid = (start+end)/2;
+            mid = start + (end-start)/2;
             if(nums[mid]==target)
             {
                 return mid;
